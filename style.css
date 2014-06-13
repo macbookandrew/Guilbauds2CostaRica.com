@@ -777,15 +777,20 @@ img.wp-smiley,
 
 .site {
 	background-color: #fff;
+	background-image: url('images/mountain-background.jpg');
+	background-repeat: no-repeat;
+	background-position: center 0;
 	border-left: 1px solid #f2f2f2;
 	border-right: 1px solid #f2f2f2;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
+	background-attachment: fixed;
 }
 
 .site-main {
 	position: relative;
+	background-color: rgba(255,255,255,0.8);
 }
 
 .site-main .sidebar-container {
@@ -814,17 +819,20 @@ img.wp-smiley,
 
 .site-header {
 	position: relative;
+	padding-top: 300px;
 }
 
 .site-header .home-link {
-	color: #141412;
 	display: block;
 	margin: 0 auto;
-	max-width: 1080px;
-	min-height: 230px;
-	padding: 0 20px;
-	text-decoration: none;
 	width: 100%;
+}
+
+.site-header .site-banner {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	max-width: 90%;
 }
 
 .site-header .site-title:hover {
