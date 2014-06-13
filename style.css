@@ -17,6 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /**
  * Table of Contents:
  *
+ * 0.0 - Variables
  * 1.0 - Reset
  * 2.0 - Repeatable Patterns
  * 3.0 - Basic Structure
@@ -42,6 +43,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 7.0 - Footer
  * 8.0 - Media Queries
  * 9.0 - Print
+ * ----------------------------------------------------------------------------
+ */
+/**
+ * 0.0 SCSS variables
  * ----------------------------------------------------------------------------
  */
 /**
@@ -824,7 +829,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-  background-color: #f7f5e7;
+  background-color: rgba(47, 87, 106, 0.95);
   margin: 0 auto;
   max-width: 1600px;
   width: 100%; }
@@ -2135,7 +2140,6 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 .site-footer {
-  background-color: #e8e5ce;
   color: #686758;
   font-size: 14px;
   text-align: center; }
@@ -2148,7 +2152,7 @@ footer.entry-meta {
   color: #686758; }
 
 .site-footer .sidebar-container {
-  background-color: #330e10;
+  background-color: rgba(47, 87, 106, 0.95);
   padding: 20px 0; }
 
 .site-footer .widget-area {
