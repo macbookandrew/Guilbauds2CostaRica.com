@@ -33,8 +33,9 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<img class="site-banner" src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-full.png" title="Jean-Claude and Matilde Guilbaud" alt="Guilbaud site header" />
+			<a class="home-link site-banner" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+				<img class="header-photo" src="<?php echo get_stylesheet_directory_uri() ?>/images/Guilbaud-header-photo.png" title="Jean-Claude and Matilde Guilbaud" />
+				<img class="header-names" src="<?php echo get_stylesheet_directory_uri() ?>/images/Guilbaud-header-name.svg" title="Jean-Claude and Matilde Guilbaud" />
 			</a>
 
 			<div id="navbar" class="navbar">
