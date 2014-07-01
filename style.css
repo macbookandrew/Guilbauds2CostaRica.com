@@ -648,7 +648,7 @@ img.alignnone {
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
-  color: #220e10;
+  color: #c7681d;
   font-size: 18px;
   font-style: italic;
   font-weight: 300;
@@ -804,7 +804,7 @@ div.nav-menu > ul {
   position: relative; }
 
 .nav-menu li a {
-  color: #141412;
+  color: white;
   display: block;
   font-size: 15px;
   line-height: 1;
@@ -815,12 +815,12 @@ div.nav-menu > ul {
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-  background-color: #220e10;
+  background-color: #c7681d;
   color: #fff; }
 
 .nav-menu .sub-menu,
 .nav-menu .children {
-  background-color: #220e10;
+  background-color: #c7681d;
   border: 2px solid #f7f5e7;
   border-top: 0;
   padding: 0;
@@ -1098,7 +1098,7 @@ footer.entry-meta {
 /* Mediaelements */
 .hentry .mejs-mediaelement,
 .hentry .mejs-container .mejs-controls {
-  background: #220e10; }
+  background: #c7681d; }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
@@ -1515,7 +1515,7 @@ footer.entry-meta {
   font-weight: 400; }
 
 .format-video .entry-meta {
-  color: #220e10; }
+  color: #c7681d; }
 
 /**
  * 5.6 Attachments
@@ -2182,6 +2182,7 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 .site-footer {
+  background-color: rgba(47, 87, 106, 0.95);
   color: #686758;
   font-size: 14px;
   text-align: center; }
@@ -2190,11 +2191,7 @@ footer.entry-meta {
 .sidebar .site-footer {
   text-align: left; }
 
-.site-footer a {
-  color: #686758; }
-
 .site-footer .sidebar-container {
-  background-color: rgba(47, 87, 106, 0.95);
   padding: 20px 0; }
 
 .site-footer .widget-area {
@@ -2694,5 +2691,3 @@ footer.entry-meta {
   .comment-reply-link,
   .comment-reply-login {
     color: #333; } }
-
-/*# sourceMappingURL=style.css.map */
