@@ -959,10 +959,10 @@ ul.nav-menu .focus > ul,
   font-size: 14px; }
 
 .entry-meta a {
-  color: #bc360a; }
+  color: #c7681d; }
 
 .entry-meta a:hover {
-  color: #bc360a; }
+  color: #c7681d; }
 
 .entry-meta > span {
   margin-right: 20px; }
@@ -1372,7 +1372,7 @@ footer.entry-meta {
   margin-right: 20px; }
 
 .format-link .entry-title a {
-  color: #bc360a; }
+  color: #c7681d; }
 
 .format-link div.entry-meta {
   display: inline; }
@@ -1643,7 +1643,7 @@ footer.entry-meta {
   float: right; }
 
 .navigation a {
-  color: #bc360a; }
+  color: #c7681d; }
 
 .navigation a:hover {
   color: #ea9629;
@@ -2129,7 +2129,7 @@ footer.entry-meta {
   margin-left: 20px; }
 
 .widget a {
-  color: #bc360a; }
+  color: #c7681d; }
 
 .widget a:hover {
   color: #ea9629; }

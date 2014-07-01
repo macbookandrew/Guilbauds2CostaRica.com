@@ -1007,7 +1007,7 @@ ul.nav-menu .focus > ul,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #bc360a;
+	color: $link-color;
 	font-style: italic;
 }
 
@@ -1125,11 +1125,11 @@ ul.nav-menu .focus > ul,
 }
 
 .entry-meta a {
-	color: #bc360a;
+	color: $link-color;
 }
 
 .entry-meta a:hover {
-	color: #bc360a;
+	color: $link-color;
 }
 
 .entry-meta > span {
@@ -1203,7 +1203,7 @@ ul.nav-menu .focus > ul,
 
 .entry-content a,
 .comment-content a {
-	color: #bc360a;
+	color: $link-color;
 }
 
 .entry-content a:hover,
@@ -1620,7 +1620,7 @@ footer.entry-meta {
 }
 
 .format-link .entry-title a {
-	color: #bc360a;
+	color: $link-color;
 }
 
 .format-link div.entry-meta {
@@ -1954,7 +1954,7 @@ footer.entry-meta {
 }
 
 .navigation a {
-	color: #bc360a;
+	color: $link-color;
 }
 
 .navigation a:hover {
@@ -2269,7 +2269,7 @@ footer.entry-meta {
 .comment-author .url,
 .comment-reply-link,
 .comment-reply-login {
-	color: #bc360a;
+	color: $link-color;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
@@ -2546,7 +2546,7 @@ footer.entry-meta {
 }
 
 .widget a {
-	color: #bc360a;
+	color: $link-color;
 }
 
 .widget a:hover {
