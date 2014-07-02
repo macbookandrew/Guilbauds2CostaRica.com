@@ -55,6 +55,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 $primary-blue: rgba(47, 87, 106, 0.95);
 $link-color: #c7681d;
+$link-color-nav: rgba(115, 211, 219, 0.9);
 
 
 /**
@@ -953,15 +954,13 @@ div.nav-menu > ul {
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-	background-color: $link-color;
+	background-color: $link-color-nav;
 	color: #fff;
 }
 
 .nav-menu .sub-menu,
 .nav-menu .children {
-	background-color: $link-color;
-	border: 2px solid #f7f5e7;
-	border-top: 0;
+	background-color: $primary-blue;
 	padding: 0;
 	position: absolute;
 	left: -2px;
@@ -1007,8 +1006,8 @@ ul.nav-menu .focus > ul,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: $link-color;
-	font-style: italic;
+	color: $link-color-nav;
+	font-weight: bolder;
 }
 
 .menu-toggle {
@@ -2659,7 +2658,7 @@ footer.entry-meta {
 }
 
 .site-footer .widget a {
-	color: #e6402a;
+	color: $link-color-nav;
 }
 
 .site-footer .widget-title,

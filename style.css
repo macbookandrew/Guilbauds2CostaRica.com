@@ -674,13 +674,11 @@ ul.nav-menu, div.nav-menu > ul {
   text-decoration: none; }
 
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
-  background-color: #c7681d;
+  background-color: rgba(115, 211, 219, 0.9);
   color: #fff; }
 
 .nav-menu .sub-menu, .nav-menu .children {
-  background-color: #c7681d;
-  border: 2px solid #f7f5e7;
-  border-top: 0;
+  background-color: rgba(47, 87, 106, 0.95);
   padding: 0;
   position: absolute;
   left: -2px;
@@ -710,8 +708,8 @@ ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, 
   width: inherit; }
 
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
-  color: #c7681d;
-  font-style: italic; }
+  color: rgba(115, 211, 219, 0.9);
+  font-weight: bolder; }
 
 .menu-toggle {
   display: none; }
@@ -1941,7 +1939,7 @@ footer.entry-meta {
   margin-right: 0; }
 
 .site-footer .widget a {
-  color: #e6402a; }
+  color: rgba(115, 211, 219, 0.9); }
 
 .site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
   color: #fff; }
