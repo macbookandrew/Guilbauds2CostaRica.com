@@ -674,7 +674,7 @@ ul.nav-menu, div.nav-menu > ul {
   text-decoration: none; }
 
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
-  background-color: rgba(115, 211, 219, 0.9);
+  background-color: rgba(115, 211, 219, 0.8);
   color: #fff; }
 
 .nav-menu .sub-menu, .nav-menu .children {
@@ -699,7 +699,7 @@ ul.nav-menu ul a, .nav-menu ul ul a {
   width: 200px; }
 
 ul.nav-menu ul a:hover, .nav-menu ul ul a:hover, ul.nav-menu ul a:focus, .nav-menu ul ul a:focus {
-  background-color: rgba(115, 211, 219, 0.9); }
+  background-color: rgba(115, 211, 219, 0.8); }
 
 ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, .nav-menu .focus > ul {
   clip: inherit;
@@ -708,7 +708,7 @@ ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, 
   width: inherit; }
 
 .nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
-  color: rgba(115, 211, 219, 0.9);
+  color: rgba(115, 211, 219, 0.8);
   font-weight: bolder; }
 
 .menu-toggle {
@@ -1939,7 +1939,7 @@ footer.entry-meta {
   margin-right: 0; }
 
 .site-footer .widget a {
-  color: rgba(115, 211, 219, 0.9); }
+  color: rgba(115, 211, 219, 0.8); }
 
 .site-footer .widget-title, .site-footer .widget-title a, .site-footer .wp-caption-text {
   color: #fff; }
@@ -2099,7 +2099,7 @@ footer.entry-meta {
     background-color: transparent;
     color: #141412; }
   .toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover {
-    background-color: rgba(115, 211, 219, 0.9);
+    background-color: rgba(115, 211, 219, 0.8);
     color: #fff; }
   ul.nav-menu, div.nav-menu > ul {
     display: none; }
