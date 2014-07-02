@@ -7,7 +7,7 @@
                 "includePaths": [],
                 "imagePath": null,
                 "sourceComments": "map",
-                "sourceMap": "../style.css.map",
+                "sourceMap": "style.css.map",
                 "outputStyle": "nested"
             },
             "bigeyex.bracketsSFTPUpload.enabled": true

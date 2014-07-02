@@ -699,7 +699,7 @@ ul.nav-menu ul a, .nav-menu ul ul a {
   width: 200px; }
 
 ul.nav-menu ul a:hover, .nav-menu ul ul a:hover, ul.nav-menu ul a:focus, .nav-menu ul ul a:focus {
-  background-color: #db572f; }
+  background-color: rgba(115, 211, 219, 0.9); }
 
 ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, .nav-menu .focus > ul {
   clip: inherit;
@@ -2099,7 +2099,7 @@ footer.entry-meta {
     background-color: transparent;
     color: #141412; }
   .toggled-on .nav-menu li a:hover, .toggled-on .nav-menu ul a:hover {
-    background-color: #db572f;
+    background-color: rgba(115, 211, 219, 0.9);
     color: #fff; }
   ul.nav-menu, div.nav-menu > ul {
     display: none; }
