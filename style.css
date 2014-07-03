@@ -108,6 +108,10 @@ a:active, a:hover {
 a:hover {
   text-decoration: underline; }
 
+body a.tel {
+  font-weight: normal;
+  color: inherit; }
+
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: Bitter, Georgia, serif;
@@ -137,9 +141,9 @@ h6 {
   font-size: 16px;
   margin: 36px 0; }
 
-address {
-  font-style: italic;
-  margin: 0 0 24px; }
+address, address p {
+  font-style: normal;
+  margin: 0; }
 
 abbr[title] {
   border-bottom: 1px dotted; }
