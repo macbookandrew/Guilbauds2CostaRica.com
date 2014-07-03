@@ -10,10 +10,6 @@
                 "sourceMap": "style.css.map",
                 "outputStyle": "nested"
             },
-            "bigeyex.bracketsSFTPUpload.enabled": true
         },
-        "sass/bootstrap/*.scss": {
-            "sass.enabled": true
-        }
     }
 }
