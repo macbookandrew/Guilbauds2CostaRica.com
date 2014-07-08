@@ -758,10 +758,10 @@ img.alignnone {
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
-	color: $link-color;
 	font-size: 18px;
 	font-style: italic;
 	font-weight: 300;
+    text-align: center;
 	margin: 0 0 24px;
 }
 
