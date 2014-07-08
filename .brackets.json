@@ -3,7 +3,7 @@
         "style.scss": {
             "sass.enabled": true,
             "sass.options": {
-                "output": "../style.css",
+                "output": "style.css",
                 "includePaths": [],
                 "imagePath": null,
                 "sourceComments": "map",
