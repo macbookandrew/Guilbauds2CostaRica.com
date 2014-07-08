@@ -26,37 +26,6 @@
 	} );
 
 	/**
-	 * Enables menu toggle for small screens.
-	 */
-	( function() {
-		var nav = $( '#site-navigation' ), button, menu;
-		if ( ! nav ) {
-			return;
-		}
-
-		button = nav.find( '.menu-toggle' );
-		if ( ! button ) {
-			return;
-		}
-
-		// Hide button if menu is missing or empty.
-		menu = nav.find( '.nav-menu' );
-		if ( ! menu || ! menu.children().length ) {
-			button.hide();
-			return;
-		}
-
-		button.on( 'click.twentythirteen', function() {
-			nav.toggleClass( 'toggled-on' );
-		} );
-
-		// Better focus for hidden submenu items for accessibility.
-		menu.find( 'a' ).on( 'focus.twentythirteen blur.twentythirteen', function() {
-			$( this ).parents( '.menu-item, .page_item' ).toggleClass( 'focus' );
-		} );
-	} )();
-
-	/**
 	 * Makes "skip to content" link work correctly in IE9 and Chrome for better
 	 * accessibility.
 	 *
