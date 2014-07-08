@@ -108,7 +108,7 @@ a:active, a:hover {
 a:hover {
   text-decoration: underline; }
 
-body a.tel {
+body a.tel, body a.tel:hover {
   font-weight: normal;
   color: inherit; }
 
