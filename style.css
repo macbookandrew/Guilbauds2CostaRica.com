@@ -759,7 +759,7 @@ ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, 
  */
 .hentry {
   padding: 40px 0;
-  min-height: 750px; }
+  min-height: 800px; }
 
 .entry-header, .entry-content, .entry-summary, .entry-meta {
   margin: 0 auto;
