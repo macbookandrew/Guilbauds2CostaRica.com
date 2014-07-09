@@ -415,7 +415,6 @@ button, input[type="submit"], input[type="button"], input[type="reset"] {
   background: linear-gradient(to bottom, #e05d22 0%, #d94412 100%);
   /* W3C */
   border: none;
-  border-bottom: 3px solid #b93207;
   border-radius: 2px;
   color: #fff;
   display: inline-block;
@@ -439,7 +438,6 @@ button:active, input[type="submit"]:active, input[type="button"]:active, input[t
   background: linear-gradient(to bottom, #d94412 0%, #e05d22 100%);
   /* W3C */
   border: none;
-  border-top: 3px solid #b93207;
   padding: 10px 24px 11px; }
 
 .post-password-required input[type="submit"] {
