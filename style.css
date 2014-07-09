@@ -872,6 +872,10 @@ ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, 
 .entry-content blockquote cite, .entry-content blockquote small {
   font-size: 16px; }
 
+.entry-content img {
+  padding: 3px;
+  border: 1px solid rgba(47, 87, 106, 0.95); }
+
 .entry-content img.alignleft, .entry-content .wp-caption.alignleft {
   margin-left: -60px; }
 

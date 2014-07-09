@@ -1229,6 +1229,11 @@ ul.nav-menu .focus > ul,
 	font-size: 16px;
 }
 
+.entry-content img {
+    padding: 3px;
+    border: 1px solid $primary-blue;
+}
+
 .entry-content img.alignleft,
 .entry-content .wp-caption.alignleft {
 	margin-left: -60px;
