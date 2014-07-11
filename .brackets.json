@@ -8,7 +8,7 @@
                 "imagePath": null,
                 "sourceComments": "map",
                 "sourceMap": "style.css.map",
-                "outputStyle": "nested",
+                "outputStyle": "compressed"
             },
             "brackets-git.stripWhitespaceFromCommits": true,
             "brackets-git.addEndlineToTheEndOfFile": true,
