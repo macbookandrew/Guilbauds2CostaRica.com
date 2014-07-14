@@ -2525,6 +2525,12 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 
+.widget-icon {
+    float: left;
+    height: 1.5em;
+    margin-right: .3em;
+}
+
 .widget {
 	background-color: rgba(247, 245, 231, 0.7);
 	font-size: 14px;
