@@ -1069,7 +1069,6 @@ ul.nav-menu .focus > ul,
 
 .hentry {
 	padding: 40px 0;
-    min-height: 800px;
 }
 
 .entry-header,
@@ -2915,7 +2914,10 @@ footer.entry-meta {
 	.site-title {
 		font-size: 30px;
 	}
-
+    .hentry {
+        min-height: 900px;
+    }
+    
 	#content .entry-header,
 	#content .entry-content,
 	#content .entry-summary,
