@@ -2910,13 +2910,16 @@ footer.entry-meta {
 	}
 }
 
+@media (min-width: 644px) {
+     .hentry {
+        min-height: 900px;
+    }
+}
+
 @media (max-width: 643px) {
 	.site-title {
 		font-size: 30px;
 	}
-    .hentry {
-        min-height: 900px;
-    }
     
 	#content .entry-header,
 	#content .entry-content,
